@@ -1,0 +1,46 @@
+* {
+  background-color: #e5e7eb;
+}
+.personal-data {
+  width: 30em;
+  height: 30em;
+  background-color: #374151;
+  padding: 2em;
+
+  border-radius: 5px;
+}
+
+.destinations {
+  width: 30em;
+  height: 30em;
+  background-color: #374151;
+  margin-left: 2em;
+
+  padding: 2em;
+  margin-bottom: 10em;
+  border-radius: 5px;
+}
+
+.mb-3 {
+  background-color: #374151;
+  border-radius: 10px;
+}
+
+.text-label {
+  background-color: #374151;
+  padding-left: 0.8em;
+  color: white;
+  font-weight: bold;
+}
+
+.text-input {
+}
+
+h1 {
+  background-color: #374151;
+  color: white;
+}
+
+.button {
+  background-color: #84cc16;
+}
