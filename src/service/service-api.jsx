@@ -21,20 +21,14 @@ export default function Paises() {
     const paises = await response.json();
     setPaises(paises);
 
+    const listaPaises = paises.map((paises) => {
+      return paises.name_ptbr;
+    });
+
+    console.log(listaPaises);
+
   };
-
-  const listaPaises = paises.map((paises) => {
-    return paises.name_ptbr;
-    console.log(paises.name_ptbr);
-  });
-
-
-
-
-
- return (
-      <div>{listaPaises}</div>
- )   
+  
 }
         
 
