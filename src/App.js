@@ -1,8 +1,8 @@
 import { PersonalData } from './components/forms/page-form.jsx';
 import { DestinationList } from './components/forms/page-form.jsx';
 import './App.css';
-import '../src/service/service-api';
-import Paises from '../src/service/service-api';
+import '../src/service/service-api-city';
+import { Paises } from '../src/service/service-api-country';
 
 function App() {
   return (

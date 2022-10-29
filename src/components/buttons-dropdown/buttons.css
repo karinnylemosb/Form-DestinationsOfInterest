@@ -1,5 +1,5 @@
 #dropdown-button-dark-example1 {
-  margin-top: 8em;
+  margin-top: 2em;
 }
 
 #dropdown-button-dark-example1,
@@ -8,6 +8,13 @@
   background-color: #84cc16;
   border: none;
   font-weight: bold;
+}
+
+.dropdown-menu {
+  overflow-y: scroll;
+  height: 300%;
+  width: 100%;
+  overflow-x: none !important;
 }
 
 .mt-2 {
