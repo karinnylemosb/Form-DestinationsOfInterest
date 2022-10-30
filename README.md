@@ -6,9 +6,12 @@
 
 ## Comandos para execução
 
+```
 bash
 npm install
 npm start
+
+```
 
 ## Acessar aplicação:
 
