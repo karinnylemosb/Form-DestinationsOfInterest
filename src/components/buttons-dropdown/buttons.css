@@ -10,6 +10,11 @@
   font-weight: bold;
 }
 
+.selected {
+  color: red;
+  background-color: white;
+}
+
 .dropdown-menu {
   overflow-y: scroll;
   height: 300%;
